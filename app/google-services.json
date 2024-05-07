@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "158085431865",
+    "project_id": "intesavincente-e720b",
+    "storage_bucket": "intesavincente-e720b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158085431865:android:c8804130ca937504b983e8",
+        "android_client_info": {
+          "package_name": "com.example.intesavincente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158085431865-b0lg5pn575gcobuefkl1klu6993oud1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkzYyNtE-KODnPxQqmJ2KD43eb_sU-Llw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158085431865-b0lg5pn575gcobuefkl1klu6993oud1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

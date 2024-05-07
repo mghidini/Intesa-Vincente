@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ui.home.MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme='@style/ThemeOverlay.AppCompat.Light'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="216dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/intesavincente_piatto_logo" />
+
+    <ImageButton
+        android:id="@+id/tastoSettings"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#3385ff"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar_logo"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar_logo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_settings_24"
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bottomnav_bg"
+        android:elevation="2dp"
+        app:itemIconSize="28dp"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/navigation_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/NavigationFragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="122dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView"
+        app:navGraph="@navigation/navigation_menu_fragment" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

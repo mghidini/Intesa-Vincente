@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_navigation"
+        app:startDestination="@id/launchScreenActivity">
+
+        <activity
+            android:id="@+id/launchScreenActivity"
+            android:name="com.example.intesavincente.utils.Launch_Screen"
+            android:label="activity_launch_screen"
+            tools:layout="@layout/activity_launch_screen" />
+    <action
+        android:id="@+id/action_from_launchScreenActivity_to_MainActivity2"
+        app:destination="@id/mainActivity2" />
+    <action
+            android:id="@+id/action_from_launchScreenActivity_to_authenticationActivity"
+            app:destination="@id/authenticationActivity" />
+        <activity
+            android:id="@+id/authenticationActivity"
+            android:name="com.example.intesavincente.ui.authentication.AuthenticationActivity"
+            android:label="activity_authentication"
+            tools:layout="@layout/activity_authentication" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.intesavincente.ui.home.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+
+</navigation>

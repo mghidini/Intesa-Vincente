@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu_fragment"
+    app:startDestination="@id/creaUniscitiFragment2">
+
+
+    <fragment
+        android:id="@+id/statistiche_menu"
+        android:name="com.example.intesavincente.ui.home.StatisticheFragment"
+        android:label="fragment_statistiche"
+        tools:layout="@layout/fragment_statistiche" />
+    <fragment
+        android:id="@+id/amici_menu"
+        android:name="com.example.intesavincente.ui.home.AmiciFragment"
+        android:label="fragment_amici"
+        tools:layout="@layout/fragment_amici" />
+    <fragment
+        android:id="@+id/creaUniscitiFragment2"
+        android:name="com.example.intesavincente.ui.partita.CreaUniscitiFragment"
+        android:label="fragment_crea_unisciti"
+        tools:layout="@layout/fragment_crea_unisciti" >
+        <action
+            android:id="@+id/action_creaUniscitiFragment2_to_creaGruppoFragment"
+            app:destination="@id/creaGruppoFragment" />
+        <action
+            android:id="@+id/action_creaUniscitiFragment2_to_listaGruppiFragment"
+            app:destination="@id/ListaGruppiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creaGruppoFragment"
+        android:name="com.example.intesavincente.ui.partita.CreaGruppoFragment"
+        android:label="fragment_crea_gruppo"
+        tools:layout="@layout/fragment_crea_gruppo" >
+        <action
+            android:id="@+id/action_creaGruppoFragment_to_activityScegliRuolo"
+            app:destination="@id/activityScegliRuolo" />
+    </fragment>
+    <fragment
+        android:id="@+id/ListaGruppiFragment"
+        android:name="com.example.intesavincente.ui.partita.ListaGruppiFragment"
+        android:label="fragment_lista_gruppi"
+        tools:layout="@layout/fragment_lista_gruppi" >
+        <action
+            android:id="@+id/action_ListaGruppiFragment_to_activityScegliRuolo"
+            app:destination="@id/activityScegliRuolo" />
+    </fragment>
+    <activity
+        android:id="@+id/indovinatore"
+        android:name="com.example.intesavincente.ui.partita.Indovinatore"
+        android:label="Indovinatore" />
+    <activity
+        android:id="@+id/suggeritoreActivity"
+        android:name="com.example.intesavincente.ui.partita.SuggeritoreActivity"
+        android:label="activity_suggeritore"
+        tools:layout="@layout/activity_suggeritore" />
+    <activity
+        android:id="@+id/activityScegliRuolo"
+        android:name="com.example.intesavincente.ui.partita.ActivityScegliRuolo"
+        android:label="activity_scegli_ruolo"
+        tools:layout="@layout/activity_scegli_ruolo" />
+</navigation>

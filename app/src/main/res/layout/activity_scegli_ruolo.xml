@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ui.partita.ActivityScegliRuolo">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_radioButton"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:backgroundTint="@color/blue"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/avantiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/orange"
+                android:elevation="20dp"
+                android:text="@string/avanti"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:cornerRadius="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.90"
+                tools:ignore="TextContrastCheck" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupScelta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/avantiButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.75">
+
+                <RadioButton
+                    android:id="@+id/suggeritoreRadio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/suggeritore"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/orange"
+                    android:textColorLink="@color/orange"
+                    android:textSize="24sp"
+                    app:buttonTint="@color/orange" />
+
+                <RadioButton
+                    android:id="@+id/indovinatoreRadio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/indovinatore"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/orange"
+                    android:textColorLink="@color/orange"
+                    android:textSize="24sp"
+                    app:buttonTint="@color/orange" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:outlineProvider="none"
+                android:text="@string/unisciti_come"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/radioGroupScelta"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.80" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

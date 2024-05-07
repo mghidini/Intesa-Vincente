@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/custom_button.xml" value="0.4" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_baseline_auto_graph_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_authentication.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_indovinatore.xml" value="0.14388489208633093" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_inserisci_parola.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_launch_screen.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_modifica_profilo.xml" value="0.264" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/activity_suggeritore.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_amici.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_crea_gruppo.xml" value="0.1" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_crea_unisciti.xml" value="0.176" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_inserisci_nome_gruppo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_lista_gruppi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_profilo.xml" value="0.264" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_scegli_ruolo.xml" value="0.264" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/fragment_statistiche.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/gruppi_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/layout/launch_screen.xml" value="0.264" />
+        <entry key="..\:/Users/matil/Documents/GitHub/IntesaVincente/app/src/main/res/menu/navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/drawable/custom_button.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/activity_modifica_profilo.xml" value="0.22" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/fragment_amici.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/fragment_crea_unisciti.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/fragment_profilo.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/fragment_scegli_ruolo.xml" value="0.18" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/layout/fragment_statistiche.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/IntesaVincente/app/src/main/res/menu/navigation_menu.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/activity_indovinatore.xml" value="0.1875" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/activity_inserisci_parola.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/activity_modifica_profilo.xml" value="0.22" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/amici_list_item.xml" value="0.2" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/fragment_amici.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/fragment_crea_gruppo.xml" value="0.2" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/fragment_crea_unisciti.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/fragment_lista_gruppi.xml" value="0.2" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/fragment_profilo.xml" value="0.2" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/fragment_scegli_ruolo.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/layout/gruppi_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/ricki/OneDrive/Documenti/GitHub/intesaVincente/app/src/main/res/menu/navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/buzz_button.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/custom_button.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/ic_baseline_android_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/ic_baseline_auto_graph_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/drawable/numbers_square.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/activity_authentication.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/activity_indovinatore.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/activity_inserisci_parola.xml" value="0.3" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/activity_launch_screen.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/activity_main.xml" value="0.3" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/activity_modifica_profilo.xml" value="0.3" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_amici.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_crea_gruppo.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_crea_unisciti.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_lista_gruppi.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_login.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_profilo.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_register.xml" value="0.3" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_scegli_ruolo.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/fragment_statistiche.xml" value="0.268" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/gruppi_list_item.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/launch_screen.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/layout/statistiche_list_item.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/menu/navigation_menu.xml" value="0.2546875" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/stebr/AndroidStudioProjects/IntesaVincente/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/drawable/bottomnav_bg.xml" value="0.3394871794871795" />
+        <entry key="app/src/main/res/drawable/buzz_button.xml" value="0.3394871794871795" />
+        <entry key="app/src/main/res/drawable/custom_button.xml" value="0.34479166666666666" />
+        <entry key="app/src/main/res/drawable/custom_textview_suggeritore.xml" value="0.3394871794871795" />
+        <entry key="app/src/main/res/drawable/numbers_square.xml" value="0.3394871794871795" />
+        <entry key="app/src/main/res/layout/activity_authentication.xml" value="0.15982776089159068" />
+        <entry key="app/src/main/res/layout/activity_indovinatore.xml" value="0.2857789855072464" />
+        <entry key="app/src/main/res/layout/activity_inserisci_parola.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/layout/activity_launch_screen.xml" value="0.27355072463768115" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_modifica_profilo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_scegli_ruolo.xml" value="0.3138586956521739" />
+        <entry key="app/src/main/res/layout/activity_suggeritore.xml" value="0.3145833333333333" />
+        <entry key="app/src/main/res/layout/fragment_amici.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_crea_gruppo.xml" value="0.2857789855072464" />
+        <entry key="app/src/main/res/layout/fragment_crea_unisciti.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_lista_gruppi.xml" value="0.3605072463768116" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/fragment_nickname.xml" value="0.15982776089159068" />
+        <entry key="app/src/main/res/layout/fragment_profilo.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.296195652173913" />
+        <entry key="app/src/main/res/layout/fragment_scegli_ruolo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_statistiche.xml" value="0.3229166666666667" />
+        <entry key="app/src/main/res/layout/gruppi_list_item.xml" value="0.3605072463768116" />
+        <entry key="app/src/main/res/layout/launch_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/statistiche_list_item.xml" value="0.375" />
+        <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.32916666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

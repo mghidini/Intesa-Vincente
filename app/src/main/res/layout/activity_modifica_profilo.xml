@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ui.home.ModificaProfilo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="210dp"
+        android:layout_height="59dp"
+        android:background="@color/blue"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/intesavincente_piatto_logo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/blue"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="5dp"
+        app:contentPaddingBottom="30dp"
+        app:contentPaddingLeft="10dp"
+        app:contentPaddingRight="10dp"
+        app:contentPaddingTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_logo"
+        app:layout_constraintVertical_bias="0.40">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/salva_modifiche"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/orange"
+                android:elevation="8dp"
+                android:text="@string/salvaModifiche"
+                android:textSize="20sp"
+                app:cornerRadius="50sp"
+                app:layout_constraintBottom_toTopOf="@+id/logout_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.965" />
+
+            <Button
+                android:id="@+id/logout_button"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/orange"
+                android:elevation="8dp"
+                android:text="@string/logout"
+                android:textSize="20sp"
+                app:cornerRadius="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.95" />
+
+
+            <EditText
+                android:id="@+id/campoPwd"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                app:layout_constraintBottom_toTopOf="@+id/salva_modifiche"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.851"
+                tools:ignore="SpeakableTextPresentCheck"></EditText>
+
+            <EditText
+                android:id="@+id/campoNickname"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/passwordModP"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.924"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <requestFocus></requestFocus>
+            </EditText>
+
+            <TextView
+                android:id="@+id/passwordModP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_password"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/campoPwd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.055"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.984" />
+
+            <TextView
+                android:id="@+id/modificaProfilo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/modificaProfilo"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="28sp"
+                app:autoSizeMinTextSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/nickname"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.507" />
+
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_nickname_address"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/campoNickname"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.98" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

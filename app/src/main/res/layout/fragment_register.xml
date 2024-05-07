@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/blue"
+    tools:context=".ui.authentication.RegisterFragment">
+
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardPreventCornerOverlap="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="193dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="0dp"
+                    android:background="@color/blue"
+                    android:src="@drawable/intesavincente_logo" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/sub_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:paddingBottom="30dp" />
+
+        <LinearLayout
+            android:id="@+id/login_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/sub_header"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/form_email_address">
+
+                <EditText
+                    android:id="@+id/nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="@string/form_nickname_address">
+
+                <EditText
+                    android:id="@+id/nickname1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/form_password"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@android:color/black">
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@android:color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/orange"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:text="@string/registrati"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
